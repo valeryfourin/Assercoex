@@ -5,7 +5,7 @@ import './responsive.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import './i18n';
-import {BicolorSorts, CreamSorts, GreenSorts, HotpinkSorts} from './components/catalog/sortsArray';
+import {BicolorSorts, CreamSorts, GardenSorts, GreenSorts, HotpinkSorts, LavanderSorts, OrangeSorts, OtherSorts, PinkSorts, RedSorts, WhiteSorts, YellowSorts} from './components/catalog/sortsArray';
 
 export const Context = createContext(null);
 ReactDOM.render(
@@ -14,7 +14,15 @@ ReactDOM.render(
       bicolor: new BicolorSorts(),
       cream: new CreamSorts(),
       green: new GreenSorts(),
-      hotpink: new HotpinkSorts()
+      hotpink: new HotpinkSorts(),
+      pink: new PinkSorts(),
+      red: new RedSorts(),
+      yellow: new YellowSorts(),
+      lavander: new LavanderSorts(),
+      white: new WhiteSorts(),
+      orange: new OrangeSorts(),
+      garden: new GardenSorts(),
+      other: new OtherSorts(),
     }}>
     {/* <Suspense fallback={(<div>Loading</div>)}> */}
       {/* <Spinner animation="border" role="status" variant="danger">
