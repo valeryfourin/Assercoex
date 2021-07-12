@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import '../styles/FullWidthBanner.scss';
 import FrontImage from '../components/home/FrontImage';
 import MainBanner from '../components/home/MainBanner';
@@ -14,6 +14,19 @@ import { COMPANY_NAME } from '../utils/consts';
 
 const Home = () => {
     document.title = COMPANY_NAME;
+
+    let reload = (function() {
+        let executed = false;
+        return function() {
+            if (!executed) {
+                executed = true;
+                window.location.reload();
+            }
+        };
+    })();
+    
+    // reload(); 
+   
     return (
         <>
             <MainBanner />

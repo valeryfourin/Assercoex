@@ -3,6 +3,10 @@
     background-size: cover;
 }
 
+.disable-parallax {
+    background-attachment: scroll;
+}
+
 .form-inner {
     max-width: 500px;
     margin: auto;

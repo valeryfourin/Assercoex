@@ -13,7 +13,7 @@ const RequestSection = () => {
             <NavLink className="mb-5" to={CONTACT_ROUTE}>
                 <Btn text={t('cooperation.text')} className="crimson" variant="danger" type="button"/>
             </NavLink>
-            <div className="fullwidth-banner contact-banner hide-banner-img-on-mobile" style={{backgroundImage: 'url(../images/general/flowers-contact-bg.jpg)'}}>
+            <div className="fullwidth-banner disable-parallax contact-banner hide-banner-img-on-mobile" style={{backgroundImage: 'url(../images/general/flowers-contact-bg.jpg)'}}>
                 <ContactForm/>
             </div>
             
