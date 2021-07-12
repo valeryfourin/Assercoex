@@ -1,0 +1,145 @@
+{
+    "menu": {
+        "home": "Home",
+        "about": "About us",
+        "catalog": "Catalog",
+        "faq": "FAQ",
+        "contact": "Contact",
+        "policy": "Privacy Policy"
+    },
+    "contactUs": {
+        "text": "Contact us",
+        "text1": "In order to start working with us - contact us and we will gladly answer all your questions.",
+        "text2": "You can fill in the contact information or contact us using any of the suggested options:",
+        "Kate": "Kate",
+        "Peter": "Peter"
+    },
+    "cooperation": {
+        "text": "Become partners!"
+    },
+    "followSocialMedia": {
+        "text": "Follow us on social media"
+    },
+    "mainBanner": {
+      "text1": "Wholesale deliveries of ",
+      "textHighlight": "the best flowers ",
+      "text2": "from Ecuador to Russia, Ukraine and CIS countries"
+    },
+    "whyUs": {
+        "title": "Why us?",
+        "reason1": "The most flexible terms of cooperation on the market",
+        "reason2": "Minimum order — one box",
+        "reason3": "10 years of experience in the Russian market",
+        "reason4": "Daily search for the best deals and discounts",
+        "reason5": "Guaranteed refund on write-offs, subject to availability of a photo",
+        "reason6": "Large plantation options",
+        "reason7": "Constant quality control of suppliers"
+    },
+    "ourServices": {
+        "title": "Our services",
+        "bannerText": "Our main goal is the best fulfillment of your orders and the guarantee of the price and quality of your delivery.",
+        "subtitle": "To achieve this aim we always use the following methods:",
+        "provider": "Search and quality control of the best competitive suppliers",
+        "bestPrice": "Detailed investigation of the situation on the market to determine the best prices and offers",
+        "personalApproach": "Personal approach to each order, depending on the client's wishes and needs",
+        "standartOrders": "Contracts with plantations about standard orders",
+        "holidaysOrders": "A special approach to fulfilling orders for holidays, with which we manage to get the best prices and quality for our customers",
+        "transport": "If needed logistics services to Amsterdam or any other destination"
+    },
+    "shipping": {
+        "title": "Shipping",
+        "step1": "Minimum order — one box",
+        "step2": "You choose to which delivery destination you need (Quito, Moscow, Amsterdam, etc.)",
+        "step3": "Transportation takes 6 to 15 days depending on your city. We will keep your flowers chilled and fresh all the way.",
+        "additional": "Already got transportation? It's okay, we will cooperate with them."
+    },
+    "reviews": {
+        "title": "Reviews"
+    },
+    "form": {
+        "title": "Leave a request and we will contact you as soon as possible",
+        "name": "Your name",
+        "msg": "Your message",
+        "send": "Send"
+    },
+    "quote": {
+        "title": "Request a quote"
+    },
+    "moreInfo": {
+        "text1": "Got questions left?",
+        "text2": "The most common ones can be found on the page",
+        "text3": "Didn't find answers?", 
+        "text4": "Do not hesitate to fill the form above and we will contact you!"
+    },
+
+    "aboutUs": {
+        "title": "About us",
+        "dearClients": "Dear customers,",
+        "weAreGlad1": "It is a pleasure to greet you, and to invite you to ",
+        "weAreGladHighlight": "be part of our global services.",
+        "weAreGlad2": "We are a company with many years of experience in the market of import and export, with the main focus on purchasing and logistics.",
+        "weProvide": "",
+        "inShippingSphere1": "In our flowers division we provide ",
+        "inShippingSphereHighlight": " brokerage services.",
+        "inShippingSphere2": "Representing clients from Ukraine, Russia and Europe we also keep our sight on conquering new markets.",
+        "mainInstruments": "",
+        "weOffer1": "Our main tools are our personalized service, our unbeatable prices and our flexibility. Through which we offer our customers the attention they deserve and want to receive. Possessing as allies a list of the ",
+        "weOfferHighlight": "best farms ",
+        "weOffer2": "in Ecuador we are able to deliver the quality that each customer requires and ensuring compliance with each requirement in variety and price. We send our best wishes reminding you that with us you obtain a partner you can rely on and get a tranquility that your requirements will be fulfilled within the time limits. "
+    },
+    "flowers": {
+        "title": "Flowers",
+        "enum": "Roses, alstroemeria, garden roses, spray roses, chrysanthemums, gypsophila, etc.",
+        "optimal1": "By default we order for you ",
+        "optimalHighlight": "the most optimal packaging ",
+        "optimal2": "in a box, or the quantity you order",
+        "priceQuality": "The best flowers in terms of ",
+        "priceQualityHighlight": "price and quality",
+        "bestSort1": "We know ",
+        "bestSortHighlight": "the best sorts ",
+        "bestSort2": "in each plantation"
+    },
+    "helpFind": {
+        "title": "In addition to purchasing, we can also help you",
+        "sort": "Choose the varieties and lengths for you depending on the region, the specifics of your business and the type of trade",
+        "provider": "Provide selection of suppliers and plantations",
+        "transport": "Find transport from Amsterdam to your city"
+    },
+    "products": {
+        "title": "We offer you such products:",
+        "rose": "rose",
+        "cloves": "cloves",
+        "alstroemeria": "alstroemeria",
+        "bushRose": "bush rose",
+        "bushCarnation": "bush carnation",
+        "gypsophila": "gypsophila",
+        "chrysanthemum" : "chrysanthemum anastasia",
+        "gardenRoses": "garden roses"
+    },
+    "close": {
+        "text": "Close"
+    },
+    "faq": {
+        "title": "Frequently asked questions:",
+        "q1": "How to start working with us?",
+        "a1": "Contact us and tell us about your requirements and needs. Send us your weekly standart order. Get a quote with up-to-date prices. Make payment to our accounts in Ecuador, USA or Panama. Get the best rose at the best prices!",
+        "q2": "Can you send me your price list?",
+        "a2": "We will gladly send you the average annual prices for the main varieties. But since the purchase of a flower takes place on the “open market”, prices may vary weekly. For an accurate calculation, send your approximate order and you will get the current prices for the items you are interested in as soon as possible.",
+        "q3": "What is the minimum order?",
+        "a3": "1 box of flowers, from 300 to 400 stems approximately.",
+        "q4": "What destinations do you ship to?",
+        "a4": "Flowers delivery is carried out almost all over Russia, Ukraine, Kazakhstan. Also there is delivery to the USA and Europe.",
+        "q5": "What flowers can you provide?",
+        "a5": "Our main product is rose. In addition to roses, we offer a wide range of carnations, gypsophila, alstroemeria, spray roses, peony roses, David Austin, stabilized roses, painted roses, fillers, hydrangeas, lilies and calla lilies.",
+        "q6": "Can you take the order directly to our warehouse?",
+        "a6": "We have delivery only until Amsterdam. From Amsterdam there are a lot of companies that transport flowers to the different regions of Russia and ex-Soviet countries. We can offer you the contact of logistic companies with which we have worked successfully.",
+        "q7": "Do you guarantee quality and order fulfillment during high seasons? (March 8, Valentine's Day, etc.)",
+        "a7": "Sure! All holiday orders are confirmed in advance. Thus, we eliminate force majeure and guarantee one hundred percent fulfillment of orders. Quality control in high seasons is carried out on the plantations when the rose is packed and at the airport before shipment. We always guarantee freshness and quality!",
+        "q8": "What happens if I receive the flower in a bad condition?",
+        "a8": "The time for the claim’s receptions is 48 hours, since the flower has been received. The claim must be accompanied by photos of all branches to claim. The total sum of claims is deducted from your balance.",
+        "q9": "What is a fixed order?",
+        "a9": "Usually the rose is purchased in open market, so the price fluctuates weekly. But if you want fixed prices throughout the year, you can choose our fixed orders.",
+        "q10": "How can I pay for the order?",
+        "a10": "The payment is made through a bank transfer in dollars to our accounts in Ecuador, US or Panama. For more information and other ways of payment, please contact your sales executive."
+    }
+}

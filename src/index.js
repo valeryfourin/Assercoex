@@ -1,14 +1,28 @@
-import React from 'react';
+import React, { createContext } from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
+import './responsive.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import './i18n';
+import {BicolorSorts, CreamSorts, GreenSorts, HotpinkSorts} from './components/catalog/sortsArray';
 
+export const Context = createContext(null);
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
+  // <React.StrictMode>
+    <Context.Provider value={{
+      bicolor: new BicolorSorts(),
+      cream: new CreamSorts(),
+      green: new GreenSorts(),
+      hotpink: new HotpinkSorts()
+    }}>
+    {/* <Suspense fallback={(<div>Loading</div>)}> */}
+      {/* <Spinner animation="border" role="status" variant="danger">
+        <span className="sr-only">Loading...</span>
+      </Spinner> */}
+      <App />
+    {/* </Suspense> */}
+    </Context.Provider>, document.getElementById('root')
 );
 
 // If you want to start measuring performance in your app, pass a function

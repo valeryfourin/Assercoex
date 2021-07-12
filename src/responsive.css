@@ -1,0 +1,28 @@
+@media screen and (max-width:650px) {
+    .section-title {
+      width: 300px;
+      font-size: 40px;
+      text-align: center;
+    }
+  
+    .section-subtitle {
+      width: 250px;
+      font-size: 30px;
+    }
+    
+    .row-subtitle {
+      width: 300px;
+      font-size: 30px;
+    }
+  
+    section {
+      margin: 0px;
+    }
+  }
+
+@media screen and (max-width: 500px) {
+  .hide-banner-img-on-mobile {
+    background-image: none !important;
+    color: black;
+  }
+}

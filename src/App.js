@@ -1,25 +1,40 @@
-import logo from './logo.svg';
+// import React, { useEffect } from 'react';
+// import logo from './logo.jpg';
 import './App.css';
+import AppRouter from './components/AppRouter';
+import {BrowserRouter} from 'react-router-dom';
+// import { observer } from 'mobx-react-lite';
+import NavMenu from './components/NavMenu';
+import Footer from './components/Footer';
+import Preloader from './components/Preloader';
 
-function App() {
+const App = () => {
+
+  // useEffect(() => {
+
+  //   let userLang = navigator.language || navigator.userLanguage; 
+  //   if (userLang.includes('ru')) {
+  //     document.cookie = 'lang=ru; expires=86400';
+  //   } else {
+  //     document.cookie = 'lang=en; expires=86400';
+  //   }
+
+  //   if (document.cookie.split(';').filter((item) => item.trim().startsWith('lang=')).length) {
+  //     console.log(document.cookie)
+  //   } 
+  //   console.log(window.location.pathname)
+  // });
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      <Preloader />
+      <NavMenu />
+      <AppRouter />
+      <Footer />
+    </BrowserRouter>
   );
-}
+};
 
-export default App;
+export default App; 
+
+

@@ -1,0 +1,23 @@
+.about-us-container {
+    z-index: 100;
+}
+
+.about-us-img {
+    width: 500px;
+    z-index: 90;
+    transition: all .4s ease-in-out;
+}
+
+@media screen and (max-width: 450px) {
+    .about-us-img {
+        width: 350px;
+    }
+}
+
+.about-us-img:hover {
+    transform: scale(1.1);
+}
+
+.about-us-par {
+    text-indent: 20px;
+}
