@@ -10,7 +10,7 @@ const FAQ = () => {
     const { t } = useTranslation();
     document.title = t('menu.faq') + ' - ' + COMPANY_NAME;
     return (
-        <section className="wrap">
+        <section className="wrap" id="faq">
             <Row><h2 className="section-title">{t('faq.title')}</h2></Row>
             <Container className="mb-5 mt-5">
                 <Accordion>
@@ -26,8 +26,9 @@ const FAQ = () => {
                   <CardQuestion question={t('faq.q10')} answer={t('faq.a10')} eventKey='10'/>
                 </Accordion>
             </Container>
+            
+            <DivisionLine />
             <Container className="wrap">
-                <DivisionLine />
                 <Row>
                     <div className="row-subtitle">
                         <p><h4>{t('moreInfo.text1')} {t('moreInfo.text4')}</h4></p>

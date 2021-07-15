@@ -54,7 +54,17 @@
         "additional": "Already got transportation? It's okay, we will cooperate with them."
     },
     "reviews": {
-        "title": "Reviews"
+        "title": "Reviews",
+        "r1": "We would like to thank you, received everything, the quality is good, in general it is very pleasant to work with you!",
+        "r1name": "Alexey, Saratov",
+        "r2": "We are very satisfied with the cooperation, always in touch, everything is quickly resolved",
+        "r2name": "Roman, Moscow",
+        "r3": "I like that I can always negotiate with you, I'm satisfied, thank you for your cooperation!",
+        "r3name": "Marina, Moscow",
+        "r4": "We have been working with Assercoex for more than 6 years, no problems have arisen, the flower is good and the prices are lower than others",
+        "r4name": "Alexey, Moscow",
+        "r5": "I used to work with another company, everything seemed to be fine, but they were not looking for new options, so I like to work with you",
+        "r5name": "Natalia, Arkhangelsk "
     },
     "form": {
         "title": "Leave a request and we will contact you as soon as possible",

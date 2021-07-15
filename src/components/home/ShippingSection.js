@@ -11,17 +11,17 @@ const ShippingSection = () => {
 
             <Container className="list-wrap">
                 <div className="list-item">
-                    <Image className="list-icon icon-1" src="./images/icons/1.png" alt="networking"/>
+                    <div className="icon-wrap"><Image className="list-icon icon-1" src="./images/icons/1.png" alt="first step"/></div>
                     <p className="list-item-1">{t('shipping.step1')}</p>
                 </div>
 
                 <div className="list-item">
-                    <Image className="list-icon icon-2" src="./images/icons/2.png" alt="analysis"/>
+                    <div className="icon-wrap"><Image className="list-icon icon-2" src="./images/icons/2.png" alt="second step"/></div>
                     <p className="list-item-2">{t('shipping.step2')}</p>
                 </div>
 
                 <div className="list-item">
-                    <Image className="list-icon icon-3" src="./images/icons/3.png" alt="proofreading"/>
+                    <div className="icon-wrap"><Image className="list-icon icon-3" src="./images/icons/3.png" alt="third step"/></div>
                     <p className="list-item-3">{t('shipping.step3')}</p>
                 </div>
 
