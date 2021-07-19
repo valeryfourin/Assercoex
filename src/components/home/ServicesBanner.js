@@ -8,7 +8,7 @@ const ServicesBanner = () => {
         <section className="wrap">
             <Row><h2 className="section-title">{t('ourServices.title')}</h2></Row>
             <div className="fullwidth-banner" style={{backgroundImage: 'url(../images/general/our-service-banner.jpg)'}}>
-                <h3>{t('ourServices.bannerText')}</h3>
+                <h3 className="title-bg">{t('ourServices.bannerText')}</h3>
             </div>
             
             <Row><p className="section-subtitle">{t('ourServices.subtitle')}</p></Row>

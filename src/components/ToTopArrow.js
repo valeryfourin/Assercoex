@@ -5,7 +5,7 @@ import '../styles/ToTopArrow.scss';
 const ToTopArrow = (props) => {
     return (
         <a href={props.href} className="arrow-wrap">
-            <Image className="arrow" id="arrow" src="../images/icons/up-arrow.png" alt="Back to top arrow"/>
+            <Image className="arrowup" id="arrow" src="../images/icons/up-arrow.png" alt="Back to top arrow"/>
         </a>
     );
 };

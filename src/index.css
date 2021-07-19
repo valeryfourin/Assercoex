@@ -102,6 +102,10 @@ section {
   margin: 50px auto;
 }
 
+.title-bg {
+  background-color: rgba(0, 0, 0, 0.205);
+}
+
 .row-subtitle {
   max-width: 500px;
   text-align: center;

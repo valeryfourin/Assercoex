@@ -35,7 +35,7 @@ const Footer = () => {
                         </div>
                         <div className="col-4">
                             <p>{t('followSocialMedia.text')}</p>
-                            <a href="https://instagram.com/assercoex.flowers?utm_medium=copy_link">
+                            <a href="https://instagram.com/assercoex.flowers?utm_medium=copy_link" rel="noreferrer" target="_blank">
                                 <Image className="contact-img" src="../images/icons/instagram.png" alt="instagram"/>
                             </a>
                         </div>
