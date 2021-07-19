@@ -14,6 +14,7 @@ class TelInput extends Component {
           css={['intl-tel-input', 'form-control']}
           utilsScript="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/utils.js"
           fieldName="number"
+          defaultCountry="ru"
           format
         />
       </>
